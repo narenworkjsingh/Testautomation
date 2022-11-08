@@ -1,0 +1,18 @@
+{
+    "login": {
+        "email": "XXXX@gmail.com",
+        "password": "XXXXX"
+    },
+    "admin": {
+        "teamname": "Newteam1106",
+        "subgroup": "Testingsubgroup1106"
+    },
+    "course": {
+        "title": "TestAutomationcourse",
+        "category": "Compliace Sec",
+        "description": "This course is created for regression testing",
+        "videolink": ""
+    }
+    
+    
+}
