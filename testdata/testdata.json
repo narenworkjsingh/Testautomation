@@ -1,17 +1,25 @@
 {
     "login": {
-        "email": "XXXX@gmail.com",
-        "password": "XXXXX"
+        "username": "naren@zoomprop.com",
+        "password": "Testing@78"
     },
-    "admin": {
-        "teamname": "Newteam1106",
-        "subgroup": "Testingsubgroup1106"
+    "propertysearch": {
+        "smartsearchtext": "airbnb",
+        "region": "",
+        "address": "",
+        "zipcode": "",
+        "collection": ""
+
     },
-    "course": {
-        "title": "TestAutomationcourse",
-        "category": "Compliace Sec",
-        "description": "This course is created for regression testing",
-        "videolink": ""
+    "newcollection": {
+        "searchbykewords": "airbnb"
+
+    },
+    "signup": {
+        "name": "NarenTest",
+        "email": "narenworktest6@gmail.com",
+        "password": "Testing@123",
+        "confpassword": "Testing@123"
     }
     
     

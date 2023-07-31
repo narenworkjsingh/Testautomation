@@ -1,0 +1,28 @@
+{
+  "data": {
+    "created": 1690517530.6536174,
+    "duration": 286.9158675670624,
+    "exitcode": 1,
+    "root": "C:\\Zoomprop",
+    "environment": {
+      "Python": "3.10.2",
+      "Platform": "Windows-10-10.0.19045-SP0",
+      "Packages": {
+        "pytest": "7.4.0",
+        "pluggy": "1.0.0"
+      },
+      "Plugins": {
+        "html": "3.2.0",
+        "json": "0.4.0",
+        "json-report": "1.5.0",
+        "metadata": "2.0.4"
+      }
+    },
+    "summary": {
+      "passed": 11,
+      "failed": 2,
+      "total": 13,
+      "collected": 13
+    }
+  }
+}

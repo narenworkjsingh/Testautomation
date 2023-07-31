@@ -1,0 +1,514 @@
+{
+  "data": {
+    "created": 1690515039.3233838,
+    "duration": 248.6478521823883,
+    "exitcode": 1,
+    "root": "C:\\Zoomprop",
+    "environment": {
+      "Python": "3.10.2",
+      "Platform": "Windows-10-10.0.19045-SP0",
+      "Packages": {
+        "pytest": "7.4.0",
+        "pluggy": "1.0.0"
+      },
+      "Plugins": {
+        "html": "3.2.0",
+        "json": "0.4.0",
+        "json-report": "1.5.0",
+        "metadata": "2.0.4"
+      }
+    },
+    "summary": {
+      "passed": 12,
+      "failed": 1,
+      "total": 13,
+      "collected": 13
+    },
+    "collectors": [
+      {
+        "nodeid": "",
+        "outcome": "passed",
+        "result": [
+          {
+            "nodeid": "config/__init__.py",
+            "type": "Package"
+          },
+          {
+            "nodeid": "driver/__init__.py",
+            "type": "Package"
+          },
+          {
+            "nodeid": "pages/__init__.py",
+            "type": "Package"
+          },
+          {
+            "nodeid": "utility/__init__.py",
+            "type": "Package"
+          }
+        ]
+      },
+      {
+        "nodeid": "config/__init__.py",
+        "outcome": "passed",
+        "result": []
+      },
+      {
+        "nodeid": "driver/test_base.py",
+        "outcome": "passed",
+        "result": []
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases",
+        "outcome": "passed",
+        "result": [
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_loginpage",
+            "type": "Function",
+            "lineno": 21
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_checkpageload",
+            "type": "Function",
+            "lineno": 30
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_collectionpageload",
+            "type": "Function",
+            "lineno": 39
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_createnewcollection",
+            "type": "Function",
+            "lineno": 47
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_deletecollection",
+            "type": "Function",
+            "lineno": 56
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_prospectpageload",
+            "type": "Function",
+            "lineno": 62
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_heatmapload",
+            "type": "Function",
+            "lineno": 69
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_marketpageload",
+            "type": "Function",
+            "lineno": 76
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_marketappericationproperty",
+            "type": "Function",
+            "lineno": 83
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_articlepageload",
+            "type": "Function",
+            "lineno": 89
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_statsoageload",
+            "type": "Function",
+            "lineno": 97
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_alertpageload",
+            "type": "Function",
+            "lineno": 106
+          },
+          {
+            "nodeid": "driver/test_cases.py::TestCases::test_settingpageload",
+            "type": "Function",
+            "lineno": 114
+          }
+        ]
+      },
+      {
+        "nodeid": "driver/test_cases.py",
+        "outcome": "passed",
+        "result": [
+          {
+            "nodeid": "driver/test_cases.py::TestCases",
+            "type": "Class"
+          }
+        ]
+      },
+      {
+        "nodeid": "driver/__init__.py",
+        "outcome": "passed",
+        "result": [
+          {
+            "nodeid": "driver/test_base.py",
+            "type": "Module"
+          },
+          {
+            "nodeid": "driver/test_cases.py",
+            "type": "Module"
+          }
+        ]
+      },
+      {
+        "nodeid": "pages/__init__.py",
+        "outcome": "passed",
+        "result": []
+      },
+      {
+        "nodeid": "utility/__init__.py",
+        "outcome": "passed",
+        "result": []
+      }
+    ],
+    "tests": [
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_loginpage",
+        "lineno": 21,
+        "outcome": "passed",
+        "keywords": [
+          "test_loginpage",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 31.410895599983633,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 11.74686500011012,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.03339329990558326,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_checkpageload",
+        "lineno": 30,
+        "outcome": "passed",
+        "keywords": [
+          "test_checkpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.001016699941828847,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 35.80358660011552,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0017240000888705254,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_collectionpageload",
+        "lineno": 39,
+        "outcome": "passed",
+        "keywords": [
+          "test_collectionpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009279998484998941,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 10.849836700130254,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0008491999469697475,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_createnewcollection",
+        "lineno": 47,
+        "outcome": "passed",
+        "keywords": [
+          "test_createnewcollection",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009769999887794256,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 40.7057467000559,
+          "outcome": "passed",
+          "stdout": "5\n6\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n"
+        },
+        "teardown": {
+          "duration": 0.006481500109657645,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_deletecollection",
+        "lineno": 56,
+        "outcome": "passed",
+        "keywords": [
+          "test_deletecollection",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009258000645786524,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 10.773912100121379,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0009481001179665327,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_prospectpageload",
+        "lineno": 62,
+        "outcome": "passed",
+        "keywords": [
+          "test_prospectpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0016139999497681856,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 10.359379599802196,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0007082999218255281,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_heatmapload",
+        "lineno": 69,
+        "outcome": "passed",
+        "keywords": [
+          "test_heatmapload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0010154999326914549,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 5.368720799917355,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.000745799858123064,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_marketpageload",
+        "lineno": 76,
+        "outcome": "passed",
+        "keywords": [
+          "test_marketpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009979999158531427,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 11.028630000073463,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0007071001455187798,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_marketappericationproperty",
+        "lineno": 83,
+        "outcome": "failed",
+        "keywords": [
+          "test_marketappericationproperty",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0010510000865906477,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 4.712915200041607,
+          "outcome": "failed",
+          "crash": {
+            "path": "C:\\Zoomprop\\pages\\marketpage.py",
+            "lineno": 38,
+            "message": "AssertionError: apperication data is not showing up in datatable."
+          },
+          "traceback": [
+            {
+              "path": "driver\\test_cases.py",
+              "lineno": 86,
+              "message": ""
+            },
+            {
+              "path": "pages\\marketpage.py",
+              "lineno": 38,
+              "message": "AssertionError"
+            }
+          ],
+          "stdout": "25\n",
+          "longrepr": "self = <driver.test_cases.TestCases object at 0x0000018B92A94BB0>\n\n    def test_marketappericationproperty(self):\n        appr = Marketpage(self.driver)\n>       appr.check_apprtabledataloads()\n\ndriver\\test_cases.py:86: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.marketpage.Marketpage object at 0x0000018B92A92380>\n\n    def check_apprtabledataloads(self):\n        self.click(self.btn_apperication)\n        time.sleep(4)\n        count = self.check_datatableloads(self.btn_view)\n        if (count == True):\n            assert True, \"Datatable shows the apperication data\"\n        else:\n>           assert False, \"apperication data is not showing up in datatable.\"\nE           AssertionError: apperication data is not showing up in datatable.\n\npages\\marketpage.py:38: AssertionError"
+        },
+        "teardown": {
+          "duration": 0.0008812001906335354,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_articlepageload",
+        "lineno": 89,
+        "outcome": "passed",
+        "keywords": [
+          "test_articlepageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0010344998445361853,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 10.814725799951702,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0006790999323129654,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_statsoageload",
+        "lineno": 97,
+        "outcome": "passed",
+        "keywords": [
+          "test_statsoageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009975999128073454,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 10.411650900030509,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0007013999857008457,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_alertpageload",
+        "lineno": 106,
+        "outcome": "passed",
+        "keywords": [
+          "test_alertpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.0009999999310821295,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 16.010388200171292,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 0.0019455000292509794,
+          "outcome": "passed"
+        }
+      },
+      {
+        "nodeid": "driver/test_cases.py::TestCases::test_settingpageload",
+        "lineno": 114,
+        "outcome": "passed",
+        "keywords": [
+          "test_settingpageload",
+          "TestCases",
+          "usefixtures",
+          "test_cases.py",
+          "driver/__init__.py",
+          "Zoomprop"
+        ],
+        "setup": {
+          "duration": 0.002812799997627735,
+          "outcome": "passed"
+        },
+        "call": {
+          "duration": 15.593817500164732,
+          "outcome": "passed"
+        },
+        "teardown": {
+          "duration": 20.010724400170147,
+          "outcome": "passed"
+        }
+      }
+    ]
+  }
+}

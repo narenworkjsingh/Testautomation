@@ -1,4 +1,4 @@
-application = "Verkada"
+application = ""
 url = ""
 Environment = "staging"
 userid = "xxxx@gmail.com"
